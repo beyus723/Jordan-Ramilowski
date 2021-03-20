@@ -9,8 +9,13 @@ html
 
 body
 {
-  font-family: 'Lato', sans-serif;
 
+  font-family:  brother-1816, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+
+
+  /* font-family: 'Lato', sans-serif; */
   /* background: rgb(109,133,163);
   background: linear-gradient(311deg, rgba(109,133,163,1) 23%, rgba(238,237,237,1) 74%); */
 
@@ -20,15 +25,17 @@ body
 
 h1
 {
-  font-size: 40px;
+  font-size: 45px;
   font-weight: bold;
+  /* font-weight: regular; */
 }
 
 h2
 {
-  font-size: 27px;
-  font-weight: normal;
+  font-size: 25px;
+  font-weight: 400;
 }
+
 
 /* #container
 {
@@ -218,9 +225,11 @@ height: 140px;
 margin: 20px;
 padding-top: 17px;
 color: #3d5f8a;
-font-size: 18px;
+
+
+font-size: 19px;
 text-align: center;
-font-weight: bolder;
+font-weight: bold;
 
 display: flex;
 align-items: center;
@@ -358,7 +367,7 @@ flex-direction: column;
   overflow: hidden;
   overflow: auto;
   font-size: 17px;
-  font-weight: lighter;
+  font-weight: 400;
 }
 
 .scroll_bar::-webkit-scrollbar
@@ -404,7 +413,7 @@ flex-direction: column;
 .scroll_bar_txt
 {
   font-size: 17px;
-  font-weight: bold;
+  /* font-weight: bold; */
   /* display: flex; */
   /* justify-content: flex-start;
   align-items: flex-start; */
@@ -620,7 +629,7 @@ flex-direction: column;
 
  .quote_box
  {
-   /* background-color: green; */
+   background-color: green;
    width: 75%;
    height: 90%;
    /* height: 120px; */
@@ -644,37 +653,45 @@ flex-direction: column;
    margin-top: 30px;
  }
 
+
+/* HEADER MEDIAQ */
  #header
  {
    width: 90%;
+   display: flex;
    flex-wrap: wrap;
    flex-direction: row;
-   align-content: center;
+   /* background-color: orange; */
  }
 
  .home_button
  {
-   padding-top: 12px;
-   padding-right: 10px;
+   margin-bottom: 20px;
+   margin-left: -60px;
+
    /* background-color: yellow; */
+   justify-content: flex-start;
  }
 
  .top_bar
  {
    /* background-color: grey; */
-   width: 90%;
-   font-size: 70px;
+   width: 70%;
+   justify-content: flex-end;
+   margin-right: -20px;
+
  }
 
  h1
  {
-   font-size: 60px;
+   font-size: 40px;
    font-weight: bolder;
+   text-align: center;
  }
 
  h2
  {
-   font-size: 35px;
+   font-size: 25px;
    font-weight: normal;
  }
 
@@ -689,7 +706,7 @@ flex-direction: column;
  color: #3d5f8a;
  font-size: 19px;
  text-align: center;
- font-weight: bolder;
+ /* font-weight: bolder; */
 
  display: flex;
  align-items: center;
@@ -705,6 +722,7 @@ flex-direction: column;
    color: #3d5f8a;
    text-decoration: none;
    font-size: 17px;
+
  }
 
  .tile_dim
@@ -722,7 +740,7 @@ flex-direction: column;
    margin: 20px;
    padding-top: 17px;
 
-   font-size: 23px;
+   font-size: 18px;
    text-align: center;
    font-weight: bolder;
 
@@ -751,9 +769,9 @@ flex-direction: column;
    padding-top: 40px;
    color: #3d5f8a;
 
-   font-size: 27px;
+   /* font-size: 27px; */
    text-align: justify;
-   font-weight: bold;
+   /* font-weight: bold; */
    line-height: 130%;
 
    display: flex;
@@ -802,8 +820,8 @@ flex-direction: column;
 
 .scroll_bar_txt
 {
-  font-size: 25px;
-  font-weight: bold;
+  font-size: 19px;
+  font-weight: 200px;
   display: flex;
   /* justify-content: flex-start; */
   align-items: flex-start;
