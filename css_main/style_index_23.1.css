@@ -25,15 +25,15 @@ body
 
 h1
 {
-  font-size: 45px;
+  font-size: 41px;
   font-weight: bold;
   /* font-weight: regular; */
 }
 
 h2
 {
-  font-size: 25px;
-  font-weight: 400;
+  font-size: 23px;
+  font-weight: 300;
 }
 
 
@@ -108,26 +108,30 @@ h2
 
 #header
 {
-  padding: 10px;
-  margin-top: 2em;
+  /* padding: 10px; */
+  /* margin-top: 2em; */
   width: 90%;
+  margin-left: 190px;
 
   display: flex;
-  /* justify-content: space-around; */
-  background-color: grey;
+  justify-content: space-around;
+  align-items: baseline;
+  /* background-color: grey; */
 }
 
 
-/**************************************** TOP BAR **/
-
 .top_bar
 {
-  /* margin: 20px 15px 10px 0; */
-  text-align: center;
-  /* justify-content: flex-end; */
+
+  margin-right: -70px;
   color: #3d5f8a;
-  width: 100%;
-  background-color: orange;
+  width: 80%;
+  /* background-color: orange; */
+
+  text-align: center;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
 }
 
 .top_bar:hover
@@ -137,6 +141,37 @@ h2
   text-decoration: none;
 }
 
+
+.tile_home_icon
+{
+/* border-radius: 7px;
+border: solid 3px rgba(238,237,237,1); */
+/* width: 90px;
+height: 70px; */
+margin-top: 40px;
+margin-right: 90px;
+/* padding-top: 10px; */
+color: #3d5f8a;
+/* text-align: left; */
+font-weight: bolder;
+display: flex;
+flex-direction: column;
+align-self: baseline;
+/* background-color: red; */
+}
+
+.tile_home_icon:hover
+{
+  color: #9dacbf;
+  text-decoration: none;
+}
+
+.home_txt
+{
+  padding-left: 5px;
+  font-size: 17px;
+  font-weight: 600;
+}
 
 
 /****************************** CONTAINERS Left+Right **/
@@ -176,38 +211,6 @@ h2
 
 /**************************** TILES **/
 
-
-.home_txt
-{
-  padding-left: 7.7px;
-  font-size: 17px;
-}
-
-.tile_home_icon
-{
-/* border-radius: 7px;
-border: solid 3px rgba(238,237,237,1); */
-/* width: 90px;
-height: 70px; */
-/* margin: 20px; */
-/* padding-top: 10px; */
-color: #3d5f8a;
-text-align: left;
-font-weight: bolder;
-
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-self: center;
-background-color: red;
-}
-
-.tile_home_icon:hover
-{
-  color: #9dacbf;
-  text-decoration: none;
-
-}
 
 .google_scholar
 {
@@ -667,7 +670,7 @@ flex-direction: column;
    display: flex;
    flex-wrap: wrap;
    flex-direction: row;
-   /* background-color: orange; */
+   background-color: orange;
  }
 
  .home_button
@@ -675,13 +678,13 @@ flex-direction: column;
    margin-bottom: 20px;
    margin-left: -60px;
 
-   /* background-color: yellow; */
+   background-color: yellow;
    justify-content: flex-start;
  }
 
  .top_bar
  {
-   /* background-color: grey; */
+   background-color: grey;
    width: 70%;
    justify-content: flex-end;
    margin-right: -20px;
