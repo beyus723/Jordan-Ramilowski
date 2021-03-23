@@ -328,7 +328,7 @@ flex-direction: column;
   width: 300px;
   border-radius: 10px;
   border: solid 3.4px #3d5f8a;
-  margin-top: 30px;
+  /* margin-top: 30px; */
 
 }
 
@@ -433,9 +433,8 @@ flex-direction: column;
 
 .google_scholar_txt
 {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: bold;
-
 }
 
 .google_scholar
@@ -735,10 +734,11 @@ flex-direction: column;
 
  #rightC
  {
-   /* background-color: white; */
+   /* background-color: pink; */
    /* padding: 10px 20px; */
    /* padding-top: 50px; */
    margin-left: 0px;
+   margin-bottom: 50px;
    width: 82%;
    height: 100%;
    /* width: 480px;
@@ -748,7 +748,6 @@ flex-direction: column;
    flex-direction: column;
    align-items: center;
    justify-content: center;
-   align-self: baseline;
    /* order: 1; */
  }
 
@@ -774,8 +773,8 @@ flex-direction: column;
    height: 70%;
    width: 50%;
    border-radius: 10px;
-   border: solid 3.4px #3d5f8a;
-   margin-top: 30px;
+   /* border: solid 3.4px #3d5f8a; */
+   margin-top: 20px;
  }
 
 
@@ -908,12 +907,12 @@ flex-direction: column;
 
  .tile_rightC
  {
-   /* background-color: yellow; */
+   /* background-color: yellow;  */
    /* border: solid 4px #3d5f8a; */
    width: 83%;
    height: 91%;
    margin: 20px;
-   padding-top: 40px;
+   padding-top: 10px;
    color: #3d5f8a;
 
    /* font-size: 27px; */
@@ -1011,8 +1010,7 @@ flex-direction: column;
 
 .google_scholar_txt
 {
-  font-size: 29px;
-  text-align: left;
+  font-size: 25px;
 }
 
 .google_scholar
