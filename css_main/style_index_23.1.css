@@ -416,6 +416,7 @@ flex-direction: column;
   align-items: flex-start; */
   padding-right: 25px;
   text-align: justify;
+  line-height: 1.3;
 }
 
 #emailAddress
@@ -434,6 +435,7 @@ flex-direction: column;
 {
   font-size: 16px;
   font-weight: bold;
+
 }
 
 .google_scholar
@@ -452,10 +454,7 @@ flex-direction: column;
 /* ****************** */
 
 
-.icon-user-circle-o
-{
-  padding-bottom: 5px;
-}
+
 
 .tile_contact
 {
@@ -627,15 +626,13 @@ flex-direction: column;
      /* justify-content: flex-end; */
      margin-right: 8%;
    }
-
-
 }
+
+
 
 @media (min-width: 1025px) and (max-width: 1250px)
 {
-
   /* HEADER MEDIAQ */
-
    #header
    {
      /* width: 100%; */
@@ -931,28 +928,24 @@ flex-direction: column;
    justify-content: center;
  }
 
-/* .icon_size
-{
-  font-size: 100px;
-} */
 
 .icon_tile_title
 {
   font-weight: bold;
-  font-size: 25px;
+  font-size: 23px;
+  padding-top: 5px;
 }
 
 /************************* SCROLLBAR **/
 
 .scroll_bar
 {
-  width: 105%;
+  width: 110%;
   height: 750px;
   padding-right: 15px;
   overflow: hidden;
   overflow: auto;
 
-  font-weight: bold;
 }
 
 .scroll_bar::-webkit-scrollbar
@@ -970,12 +963,14 @@ flex-direction: column;
 
 .scroll_bar_txt
 {
-  font-size: 19px;
-  font-weight: 200px;
-  display: flex;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1.3;
+
+  /* display: flex; */
   /* justify-content: flex-start; */
-  align-items: flex-start;
-  padding-right: 30px;
+  /* align-items: flex-start; */
+  /* padding-right: 30px; */
 }
 
 /************************* SCROLLBAR_contactbox **/
