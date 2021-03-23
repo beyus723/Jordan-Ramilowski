@@ -829,9 +829,9 @@ flex-direction: column;
 
  h2
  {
-   font-size: 25px;
+   font-size: 23px;
    font-weight: normal;
-   margin: 0;
+   margin: 0 0 5px 0;
  }
 
  .top_bar
@@ -912,7 +912,7 @@ flex-direction: column;
  .tile_rightC
  {
    /* background-color: yellow; */
-   border: solid 4px #3d5f8a;
+   /* border: solid 4px #3d5f8a; */
    width: 83%;
    height: 91%;
    margin: 20px;
