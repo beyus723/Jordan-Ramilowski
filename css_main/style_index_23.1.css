@@ -65,7 +65,7 @@ body
   padding-bottom: 35px;
   width: 90%;
   height: 90%;
-  /* opacity: 90%; */
+
 
   display: flex;
   flex-direction: row;
@@ -121,6 +121,7 @@ h2
   justify-content: flex-end;
   flex-direction: column;
   margin-right: -17%;
+  /* padding-left: 375px; */
 
 }
 
