@@ -96,7 +96,7 @@ h1
   font-size: 30px;
   font-weight: bold;
   margin: 0;
-  text-shadow: 2px 1px 3px rgba(238,237,237,1);
+  text-shadow: 2px 1px 3px grey;
 }
 
 h2
@@ -104,7 +104,7 @@ h2
   font-size: 20px;
   font-weight: 300;
   margin: 0;
-  text-shadow: 2px 1px 3px rgba(238,237,237,1);
+  text-shadow: 2px 1px 3px grey;
 }
 
 #header
@@ -249,7 +249,7 @@ height: 140px;
 margin: 20px;
 padding-top: 17px;
 color: #201003;
-text-shadow: 3px 5px 23px rgba(238,237,237,1);
+text-shadow: 2px 2px 3px grey;
 /* background-color: #3d5f8a; */
 
 
@@ -266,8 +266,8 @@ flex-direction: column;
 .tile_homepage:hover
 {
   border-radius: 10px;
-  border: solid 6.5px rgb(109,133,163);
-  color: rgb(109,133,163);
+  border: solid 6.5px grey;
+  color: grey;
   text-decoration: none;
   font-size: 17px;
   text-shadow: 2px 1px rgba(238,237,237,1);
@@ -351,7 +351,7 @@ flex-direction: column;
   text-align: center;
   font-weight: bold;
   /* background-color: #3d5f8a; */
-  text-shadow: 2px 1px 3px rgba(238,237,237,1);
+  text-shadow: 2px 1px 3px grey;
   border-radius: 5%;
   padding: 20px;
   opacity: 85%
@@ -1091,6 +1091,7 @@ flex-direction: column;
 {
   color:  #3d5f8a;
   text-decoration: none;
+
 }
 
 .footer_txt:hover
