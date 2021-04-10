@@ -712,7 +712,7 @@ flex-direction: column;
 
    h1
    {
-     font-size: 32px;
+     font-size: 23px;
      font-weight: bold;
      text-align: center;
      margin: 0;
@@ -720,7 +720,7 @@ flex-direction: column;
 
    h2
    {
-     font-size: 19px;
+     font-size: 15px;
      font-weight: normal;
      margin: 0;
    }
@@ -748,6 +748,7 @@ flex-direction: column;
    margin-left: auto;
    margin-right: auto;
    padding-bottom: 35px;
+   margin-top: -10px;
    width: 100%;
 
    /* display: flex;
@@ -804,14 +805,14 @@ flex-direction: column;
    height: 90%;
    /* height: 120px; */
    margin: 20px;
-   color: #3d5f8a;
+   color: #201003;
    padding-top: 12px;
    padding-right: auto;
    padding-left: auto;
    text-align: center;
    font-weight: bold;
    line-height: 150%;
-   font-size: 29px;
+   font-size: 23px;
  }
 
  .img_jordan
@@ -839,7 +840,7 @@ flex-direction: column;
  .tile_home_icon
  {
    margin-left: -144%;
-   color: #3d5f8a;
+   color: #201003;
    font-weight: bolder;
    /* background-color: red; */
 
@@ -891,13 +892,13 @@ flex-direction: column;
  .tile_homepage
  {
  border-radius: 15px;
- border: solid 5px #3d5f8a;
+ border: solid 5px #201003;
  width: 120px;
  height: 120px;
  margin: 20px;
  padding-top: 17px;
- color: #3d5f8a;
- font-size: 19px;
+ color: #201003;
+ font-size: 17px;
  text-align: center;
  /* font-weight: bolder; */
 
@@ -911,8 +912,8 @@ flex-direction: column;
  .tile_homepage:hover
  {
    border-radius: 10px;
-   border: solid 6px #3d5f8a;
-   color: #3d5f8a;
+   border: solid 6px grey;
+   color: grey;
    text-decoration: none;
    font-size: 17px;
 
@@ -1084,12 +1085,12 @@ flex-direction: column;
   text-align: center;
   font-size: 14px;
   font-style:  italic;
-  color: #3d5f8a;
+  color: #201003;
 }
 
 .footer_txt
 {
-  color:  #3d5f8a;
+  color:  #201003;
   text-decoration: none;
 
 }
