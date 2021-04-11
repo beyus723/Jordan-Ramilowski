@@ -659,7 +659,7 @@ flex-direction: column;
     /* padding: 10px 20px; */
     margin-right: 0px;
     /* margin-top: 20px; */
-    width: 18%;
+    width: 25%;
     /* width: 480px; */
     height: 100%;
     display: flex;
@@ -677,7 +677,7 @@ flex-direction: column;
     margin-left: 0px;
     /* margin-bottom: 50px; */
     margin-top: 75px;
-    width: 82%;
+    width: 75%;
     height: 100%;
     /* width: 480px;
    height: 570px; */
@@ -741,11 +741,11 @@ flex-direction: column;
   .tile_homepage {
     border-radius: 15px;
     color: #201003;
-    width: 120px;
-    height: 120px;
+    width: 160px;
+    height: 160px;
     margin: 20px;
     padding-top: 17px;
-    font-size: 21px;
+    font-size: 28px;
     text-align: center;
     display: flex;
     align-items: center;
@@ -758,21 +758,18 @@ flex-direction: column;
     border: solid 6px grey;
     color: grey;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 25px;
   }
 
   .tile_dim {
     border-radius: 15px;
     border: solid 4px grey;
     color: grey;
-    /* border-radius: 10px;
-   border: solid 4px rgba(238,237,237,1);
-   color: rgba(238,237,237,1); */
-    width: 120px;
-    height: 120px;
+    width: 160px;
+    height: 160px;
     margin: 20px;
     padding-top: 17px;
-    font-size: 18px;
+    font-size: 27px;
     text-align: center;
     font-weight: bolder;
     display: flex;
@@ -790,10 +787,7 @@ flex-direction: column;
     height: 91%;
     margin: 20px;
     padding-bottom: 70px;
-    /* color: #3d5f8a; */
-    /* font-size: 27px; */
     text-align: justify;
-    /* font-weight: bold; */
     line-height: 135%;
     display: flex;
     align-items: center;
@@ -805,15 +799,14 @@ flex-direction: column;
   .icon_tile_title
 {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 40px;
   padding-top: 15px;
   text-shadow: 1px 1px 2px grey;
-
 }
 
   /************************* SCROLLBAR **/
   .scroll_bar {
-    width: 110%;
+    width: 120%;
     height: 750px;
     padding-right: 15px;
     overflow: hidden;
@@ -832,7 +825,7 @@ flex-direction: column;
   }
 
   .scroll_bar_txt {
-    font-size: 25px;
+    font-size: 29px;
     font-weight: normal;
     line-height: 1.3;
     /* display: flex; */
@@ -872,12 +865,12 @@ flex-direction: column;
   }
 
   .google_scholar_txt {
-    font-size: 23px;
+    font-size: 29px;
     text-decoration: none;
   }
 
   .google_scholar_txt:hover {
-    font-size: 22px;
+    font-size: 29px;
     text-decoration: none;
   }
 
@@ -900,7 +893,7 @@ flex-direction: column;
     /* padding-bottom: 55px; */
     width: 70%;
     text-align: center;
-    font-size: 14px;
+    font-size: 18px;
     font-style: italic;
     color: #201003;
   }
