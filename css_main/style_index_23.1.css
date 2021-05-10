@@ -152,15 +152,7 @@ border: solid 3px rgba(238,237,237,1); */
 }
 
 /**************************** TILES **/
-.google_scholar {
-  color: #3d5f8a;
-  text-decoration: none;
-}
 
-.google_scholar:hover {
-  color: grey;
-  text-decoration: none;
-}
 
 .tile_homepage {
   border-radius: 10px;
@@ -414,6 +406,7 @@ flex-direction: column;
   font-size: 18px;
   font-weight: bold;
   text-decoration: none;
+      text-align: center;
 }
 
 .google_scholar_txt:hover {
@@ -423,7 +416,7 @@ flex-direction: column;
 }
 
 .google_scholar {
-  /* color: #9dacbf; */
+  color: #3d5f8a;
   text-decoration: none;
 }
 
@@ -431,6 +424,7 @@ flex-direction: column;
   color: grey;
   text-decoration: none;
 }
+
 
 /* ****************** */
 .tile_contact {
@@ -478,23 +472,23 @@ flex-direction: column;
 
 /** FOOTER **/
 #footer {
-  margin-bottom: 7px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 1em;
-  padding-bottom: 1em;
+  /* margin-bottom: 7px; */
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  /* padding-top: 1em; */
+  /* padding-bottom: 1em; */
   ;
   /* padding-bottom: 55px; */
-  width: 70%;
-  text-align: center;
-  font-size: 14px;
+  /* width: 70%; */
+  /* text-align: center; */
+  /* font-size: 14px; */
   font-style: italic;
   color: #3d5f8a;
   text-decoration: none;
 }
 
 .footer_txt {
-  color: rgba(0, 0, 0, 0.5);
+
   text-decoration: none;
 }
 
@@ -767,6 +761,7 @@ flex-direction: column;
   .google_scholar_txt {
     font-size: 26px;
     text-decoration: none;
+        text-align: center;
   }
 
   .google_scholar_txt:hover {
@@ -785,13 +780,13 @@ flex-direction: column;
 
   #footer {
     margin-bottom: 7px;
-    margin-left: 24%;
+    margin-left: 22%;
     /* margin-right: 30%; */
     padding-top: 1em;
     padding-bottom: 1em;
     ;
     /* padding-bottom: 55px; */
-    width: 70%;
+    width: 72%;
     text-align: center;
     font-size: 15px;
     font-style: italic;
@@ -1087,7 +1082,7 @@ flex-direction: column;
 
   #footer {
     margin-bottom: 7px;
-    margin-left: 24%;
+    margin-left: 22%;
     /* margin-right: 30%; */
     padding-top: 1em;
     padding-bottom: 1em;
@@ -1199,7 +1194,7 @@ flex-direction: column;
   }
 
   .chain_borders {
-    font-size:35px;
+    font-size:25px;
     color: grey;
     height: 70px;
   }
@@ -1209,11 +1204,11 @@ flex-direction: column;
   .tile_homepage {
     border-radius: 15px;
     color: #201003;
-    width: 160px;
-    height: 160px;
+    width: 140px;
+    height: 140px;
     margin: 20px;
     padding-top: 17px;
-    font-size: 28px;
+    font-size: 20px;
     text-align: center;
     display: flex;
     align-items: center;
@@ -1233,8 +1228,8 @@ flex-direction: column;
     border-radius: 15px;
     border: solid 4px grey;
     color: grey;
-    width: 160px;
-    height: 160px;
+    width: 140px;
+    height: 140px;
     margin: 20px;
     padding-top: 17px;
     font-size: 26px;
@@ -1286,13 +1281,13 @@ flex-direction: column;
 
   .scroll_bar::-webkit-scrollbar {
     width: 10px;
-    background-color: rgba(238, 237, 237, 1);
+    background-color: white;
     border-radius: 10px;
   }
 
   .scroll_bar::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    -webkit-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+    /* -webkit-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5); */
   }
 
   .scroll_bar_txt {
@@ -1328,31 +1323,33 @@ flex-direction: column;
   }
 
 .email_txt{
-  font-size: 35px;
+  font-size: 25px;
   padding: 7px;
 }
 
   #emailAddress {
     width: 95%;
-    font-size: 23px;
+    font-size: 20px;
     padding: 5px;
   }
 
   #message {
     width: 95%;
-    font-size: 23px;
+    font-size: 20px;
     padding: 7px;
   }
 
   #mail_btn {
     font-size: 23px;
     padding: 7px;
+    border-radius: 10px;
   }
 
   .google_scholar_txt {
     font-size: 29px;
     text-decoration: none;
     text-align: center;
+    padding-top: 20px;
   }
 
   .google_scholar_txt:hover {
@@ -1361,17 +1358,14 @@ flex-direction: column;
   }
 
   .google_scholar {
-    /* color: #9dacbf; */
     text-decoration: none;
   }
 
-  .google_scholar:hover {
-    color: grey;
-  }
+
 
   #footer {
     margin-bottom: 7px;
-    margin-left: 24%;
+    margin-left: 28.5%;
     /* margin-right: 30%; */
     padding-top: 1em;
     padding-bottom: 1em;
