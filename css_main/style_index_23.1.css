@@ -24,14 +24,10 @@ body {
   flex-flow: wrap;
 }
 
-#background23 {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-}
+
 
 /* ***************************************************** HEADER */
+
 h1 {
   font-size: 30px;
   font-weight: bold;
@@ -46,67 +42,26 @@ h2 {
   text-shadow: 2px 1px 3px grey;
 }
 
-.chain_borders {
+.bottom_dots {
   font-size: 30px;
   color: grey;
   text-align: center;
   padding: 30px;
-  /* border-top: solid 4px #9dacbf; */
 }
 
-#header {
-  /* padding: 10px; */
-  /* margin-top: 2em; */
-  /* width: 73%; */
-  /* margin-top: 40px; */
-  /* margin-left: 12%; */
-  background-color: grey;
-  /* display: flex; */
-  /* justify-content: space-between; */
-  /* justify-content: flex-end; */
-  /* align-items: baseline; */
-}
 
-.top_bar {
-  /* margin-right: -70px; */
+.index_topName {
   margin-bottom: 20px;
   width: 90%;
   text-align: center;
   display: flex;
-  /* justify-content: flex-end; */
   flex-direction: column;
-  /* margin-right: -17%; */
-  /* padding-left: 375px; */
   /* background-color: #3d5f8a; */
   color: #201003;
   opacity: 94%
 }
 
-/* .top_bar:hover
-{
-  color: #201003;
-  color: #3d5f8a;
-  text-decoration: none;
-} */
-.tile_home_icon {
-  /* border-radius: 7px;
-border: solid 3px rgba(238,237,237,1); */
-  /* margin-top: 40px; */
-  /* margin-right: 90px; */
-  /* padding-top: 10px; */
-  color: #2a8cbf;
-  font-weight: bolder;
-  /* background-color: red; */
-  margin-left: 140%;
-  display: flex;
-  flex-direction: column;
-  align-self: baseline;
-}
 
-.tile_home_icon:hover {
-  color: #9dacbf;
-  text-decoration: none;
-}
 
 .home_txt {
   padding-left: 5px;
@@ -506,19 +461,13 @@ flex-direction: column;
   font-size: 14.5px;
 }
 
-/* .dawid_ramilowski
-{
-  font-size: 14px;
-  font-style: normal;
-}
 
-.dawid_ramilowski:hover
-{
-  font-size: 14.5px;
-  font-style: italic;
-} */
+
 /******************************** MediaQ */
-/* ------------------------------------------------------------------- */
+
+/* --------------------------------------------------------------------------- */
+
+
 @media all and (min-width: 2000px) and (max-width: 3841px) {
   #content {
     background-color: rgba(238, 237, 237, 1);
@@ -596,15 +545,7 @@ flex-direction: column;
     margin-top: 20px;
   }
 
-  /* .tile_home_icon {
-    margin-left: -144%;
-    color: #201003;
-    font-weight: bolder;
-    background-color: red;
-    display: flex;
-    flex-direction: column;
-    align-self: baseline;
-  } */
+
   h1 {
     font-size: 50px;
     font-weight: bold;
@@ -815,8 +756,9 @@ flex-direction: column;
   }
 }
 
-/* ------------------------------------------------- */
+/* --------------------------------------------------------------------------- */
 @media all and (min-width: 1024px) and (max-width: 1999px) {
+
   #content {
     background-color: rgba(238, 237, 237, 1);
     border: none;
@@ -893,15 +835,6 @@ flex-direction: column;
     margin-top: 20px;
   }
 
-  /* .tile_home_icon {
-    margin-left: -144%;
-    color: #201003;
-    font-weight: bolder;
-    background-color: red;
-    display: flex;
-    flex-direction: column;
-    align-self: baseline;
-  } */
   h1 {
     font-size: 50px;
     font-weight: bold;
@@ -1204,7 +1137,7 @@ flex-direction: column;
     margin: 50px 0 5px 0;
   }
 
-  .chain_borders {
+  .bottom_dots {
     font-size: 25px;
     color: grey;
     height: 70px;
