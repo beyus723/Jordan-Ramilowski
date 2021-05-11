@@ -1285,6 +1285,8 @@ flex-direction: column;
     width: 7px !important;
     background-color: lightgrey;
     border-radius: 10px;
+
+    -webkit-overflow-scrolling: Auto;
   }
 
   .scroll_bar::-webkit-scrollbar-thumb {
@@ -1296,7 +1298,7 @@ flex-direction: column;
   }
 
   .scroll_bar::-webkit-scrollbar-thumb:window-inactive {
-  background: #41617D !important;
+  background: lightgrey !important;
 }
 
   .scroll_bar::-webkit-scrollbar-track {
