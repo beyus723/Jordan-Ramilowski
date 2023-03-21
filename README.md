@@ -1,1 +1,4 @@
-# Jordan-personal-website
+# Bioinformatics Associate Professor
+Jordan RAMILOWSKI, PhD
+
+personal website 
