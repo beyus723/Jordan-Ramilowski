@@ -1,4 +1,3 @@
-Bioinformatics Associate Professor
-Jordan RAMILOWSKI, PhD
+Jordan RAMILOWSKI, PhD - Bioinformatics Associate Professor
 
-personal website 
+*** personal website ***
